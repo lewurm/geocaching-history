@@ -11,3 +11,6 @@ run:
 
 browserify:
 	pulp browserify
+
+psci:
+	pulp psci
