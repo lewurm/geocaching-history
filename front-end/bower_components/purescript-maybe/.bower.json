@@ -1,0 +1,36 @@
+{
+  "name": "purescript-maybe",
+  "homepage": "https://github.com/purescript/purescript-maybe",
+  "description": "Optional values",
+  "keywords": [
+    "purescript"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/purescript/purescript-maybe.git"
+  },
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "output",
+    "test",
+    "bower.json",
+    "gulpfile.js",
+    "package.json"
+  ],
+  "dependencies": {
+    "purescript-monoid": "^0.3.0"
+  },
+  "version": "0.3.4",
+  "_release": "0.3.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.3.4",
+    "commit": "1e65d7c05b5916c7a3bded7b2ef8a6811521bb7b"
+  },
+  "_source": "git://github.com/purescript/purescript-maybe.git",
+  "_target": "~0.3.4",
+  "_originalSource": "purescript-maybe"
+}

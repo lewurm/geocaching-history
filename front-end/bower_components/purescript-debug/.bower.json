@@ -1,0 +1,37 @@
+{
+  "name": "purescript-debug",
+  "homepage": "https://github.com/garyb/purescript-debug",
+  "description": "Console based debugging functions",
+  "keywords": [
+    "purescript"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/garyb/purescript-debug.git"
+  },
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "output",
+    "bower.json",
+    "package.json"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^0.1.0"
+  },
+  "devDependencies": {
+    "purescript-eff": "^0.1.0"
+  },
+  "version": "0.1.2",
+  "_release": "0.1.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.2",
+    "commit": "11986dd4cb511fe826ccb0e0bbfe0f1ed4b13048"
+  },
+  "_source": "git://github.com/garyb/purescript-debug.git",
+  "_target": "~0.1.2",
+  "_originalSource": "purescript-debug"
+}

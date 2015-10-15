@@ -1,0 +1,13 @@
+{
+  "name": "L.GeoSearch",
+  "homepage": "https://github.com/smeijer/L.GeoSearch",
+  "_release": "8e9dadb23a",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "8e9dadb23a2f53694ebcf78cbc2511975375f3c0"
+  },
+  "_source": "git://github.com/smeijer/L.GeoSearch.git",
+  "_target": "*",
+  "_originalSource": "L.GeoSearch"
+}

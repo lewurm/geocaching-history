@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "L.GeoSearch": "*",
+    "Leaflet.awesome-markers": "*",
+    "leaflet": "*",
+    "purescript-console": "~0.1.1"
+  },
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules"
+  ],
+  "name": "purescript-leaflet",
+  "homepage": "https://github.com/lewurm/purescript-leaflet",
+  "version": "0.2.0",
+  "_release": "0.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.2.0",
+    "commit": "4f5e97ae05c786a338e21bf1231a901611d5d005"
+  },
+  "_source": "git://github.com/lewurm/purescript-leaflet.git",
+  "_target": "*",
+  "_originalSource": "git://github.com/lewurm/purescript-leaflet.git"
+}
