@@ -1,3 +1,8 @@
+## wat?
+
+nothing to see here yet.
+
+## how to get your pocket query on geocaching.com
 
 Download My Finds Pocket Query Zip File From Geocaching.com
 Go to the geocaching.com "Your Pocket Queries"
@@ -11,6 +16,9 @@ query ZIP file will work. Other files will give you an error if you try to
 upload them. See our FAQ for more detailed instructions.
 
 
+## notes
+<pre>
 <groundspeak:log id="XYZ">
 ==> http://www.geocaching.com/seek/log.aspx?lid=XYZ
-should be able to get pic links from there.
+</pre>
+should be able to get attached pictures from there.
