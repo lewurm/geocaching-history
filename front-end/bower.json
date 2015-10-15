@@ -17,6 +17,9 @@
     "purescript-math": "~0.2.0",
     "purescript-maybe": "~0.3.4",
     "purescript-strings": "~0.7.0",
-    "purescript-tuples": "~0.4.0"
+    "purescript-tuples": "~0.4.0",
+    "purescript-react": "~0.4.2",
+    "react": "~0.14.0",
+    "purescript-debug": "~0.1.2"
   }
 }

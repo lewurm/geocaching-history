@@ -1,5 +1,7 @@
 .PHONY: build opt run browserify
 
+all: opt
+
 build:
 	pulp build
 
