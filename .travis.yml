@@ -1,0 +1,22 @@
+env:
+  matrix:
+  - PATH=$HOME/purescript:$PATH
+  global:
+  - secure: RLGVMhzzOds1aD+qRW79uiVytrCqsQoDp7eOaPB00ffH9uz4GofJlSujmIVsakCCmZqWkrMMecphClR341Xnydu0u9hqUq0I5bLEYC+tKRPBvXaj2z1UPeyAQb2ojrJdxBXV//OaAfne88DoO+76VMKhyqlQOgiRGS3coLsaoM+bP+SdHGkzcuGEvswnsTRPZS57CwuYlMU9+IbMyYMzXJ2G/98ZucCCLjG6TxNmVNwqvi0YRZeeyB/cJvNBAcD4LgF2TvSFiIZxGNROaW9ywrwOoQ0aZP6Ta8bcq/uCZwRpJrGN5b/yBjLuoBRTdogCKWtTPo8x+5BH86AW6PwGTeE736aBWGTi+xIZ0yAs9FNIgupFrgsX//inXM2xtg3U1tWZOguwbpWWhjbgd6fBOIOZULuIfcV+Z64H1vMvYgV/aQgdcNVis/fhkGFCvUW9Z9BEoj6SdED+Mvno/G1TKmECDUwdvqBtyI+98A0dbFuLxCDnhST4Jk9V3DpfhLjSjL83u8wn2h1odGgfbwp943+fFU4WONBxLk3/iigHQTBzM5YQjNXPtQp1phEQSUvdU4cynZGPYtazqYFQ7y2vU39nOh0IxV0Z/2KfgwpyB52KhqEIyWnHDBmg1ZUpYXeeaP2QFVb9rPcCVG137uX3KjlLRVgl0ZiCcapeYIr8k6U=
+language: node_js
+sudo: true
+node_js:
+- 0.1
+install:
+# - TAG=$(wget -q -O - https://github.com/purescript/purescript/releases/latest --server-response --max-redirect 0 2>&1 | sed -n -e 's/.*Location:.*tag\///p')
+# - wget -O $HOME/purescript.tar.gz https://github.com/purescript/purescript/releases/download/$TAG/linux64.tar.gz
+- wget -O $HOME/purescript.tar.gz https://github.com/purescript/purescript/releases/download/v0.7.0/linux64.tar.gz
+- tar -xvf $HOME/purescript.tar.gz -C $HOME/
+- chmod a+x $HOME/purescript
+- cd front-end
+- npm install -g pulp
+- pulp dep install
+- pulp build -O --to output.js
+- cd ..
+script:
+- ./deploy-github-pages.sh

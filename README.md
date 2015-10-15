@@ -2,6 +2,8 @@
 
 nothing to see here yet.
 
+[![Build Status](https://travis-ci.org/lewurm/geocaching-history.svg?branch=master)](https://travis-ci.org/lewurm/geocaching-history)
+
 ## how to get your pocket query on geocaching.com
 
 Download My Finds Pocket Query Zip File From Geocaching.com
